@@ -1,0 +1,302 @@
+
+.maindiv{
+    background: url("./images/noita-digital-QZX8jbK1xEw-unsplash.jpg") no-repeat;
+    background-position:center;
+    opacity: 0.9;
+    background-size:auto ;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.navcont{
+    background: url("./images/noita-digital-QZX8jbK1xEw-unsplash.jpg") no-repeat;
+    background-position:center;
+    opacity: 0.6;
+    background-size:auto ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.icon{
+    opacity:2;
+    transition: all 1s;
+ 
+    transition: all 1s;
+}
+.icon:hover{
+opacity: 2;
+cursor: pointer;
+
+color: rgb(177, 217, 250);
+transform:rotateZ(360deg) ;
+
+
+}
+
+
+
+
+nav a.nav-link{
+    font-weight: 700;
+    cursor: pointer;
+    letter-spacing: 0.0375rem;
+}
+
+.navbar-nav > li > a{
+    color:rgb(221, 0, 255) !important;
+    font-size: large;
+    margin-right:0.75rem ;
+    margin-left:0.75rem ;
+    transition: all 1s ease-in;
+   
+}
+
+
+
+.navbar-nav > li > a:hover{
+    color:rgb(9, 8, 6) !important;
+    font-size: large;
+    margin-right:0.75rem ;
+    margin-left:0.75rem ;
+    font-weight: bolder;
+   background-color:blueviolet !important;
+ 
+    box-shadow:inset .75rem .75rem 2rem whitesmoke !important;
+   
+    
+}
+.navbar-nav > li > .activa{
+    
+    color:rgb(9, 8, 6) !important;
+    font-size: large;
+    margin-right:0.75rem ;
+    margin-left:0.75rem ;
+    font-weight: bolder;
+   background-color:blueviolet !important;
+ 
+    box-shadow:inset .75rem .75rem 2rem whitesmoke !important;
+   
+    
+      
+    }
+
+
+
+nav ul li{
+    font-family: 'Lobster', cursive;
+}
+.giticon{
+    color:yellow;
+}
+.giticon:hover{
+    opacity: 2;
+cursor: pointer;
+
+color: rgb(238, 227, 6);
+transform:rotateZ(360deg) ;
+
+}
+
+.navbar-toggler{
+    color:blueviolet !important;
+}
+
+.navbar-toggler-icon{
+    color: blueviolet !important;
+   
+}
+
+.mylogo{
+    animation: anime 2s linear ;
+    animation-iteration-count: infinite;
+    box-sizing: border-box;
+
+}
+
+@keyframes anime{
+    0%{
+
+    }
+    25%{
+        box-shadow: 1px 1px 3px blueviolet
+    
+    }
+    50%{
+        box-shadow: 2px 2px 5px blueviolet
+    }
+    75%{ box-shadow: 3px 3px 7px blueviolet
+    }
+    100%{
+        box-shadow: 4px 4px 9px blueviolet
+    }
+}
+
+
+.header-wrapper{
+    position: relative;
+ /*   background: url("./images/laptop-g7adfc9b6d_1920.jpg") no-repeat;
+    height: 90vh;
+    background-position: center;
+    opacity: 0.7;
+    background-size:cover ;*/
+}
+
+.main-info{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: rgb(244, 231, 231);
+    font-weight:bolder;
+   
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    
+}
+
+.typed-text{
+    font-size: 2rem;
+    color:rgb(230, 238, 6)
+}
+
+
+.btn-main-offer{
+    border:1px solid blueviolet;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: violet;
+    text-decoration:double;
+    background-color: black;
+}
+
+.btn-main-offer:hover{
+    border:1px solid blueviolet;
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: rgb(222, 18, 144);
+    text-decoration:double;
+    background-color: black
+}
+h1{
+    font-size: xx-large;
+    
+}
+
+.profile-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.primary-text{
+    text-align: center;
+    color:rgb(236, 234, 239);
+    font-family:'Lobster' ;
+    font-weight: bolder;
+    text-decoration:wavy
+
+}
+
+.card{
+    max-width: 350px !important;
+    margin: auto;
+   box-shadow: 5px 5px 10px violet,-5px -5px 10px violet;
+}
+
+.about-heading{
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-decoration-color: white;
+    color: yellow;
+}
+
+.about-info{
+    color:#00ff00;
+    font-family: 'Lobster', cursive;
+    text-align: justify;
+}
+
+
+#myname,#myemail,#mymessage,#mysubject{
+    color:violet;
+    font-family: "Lobster",cursive;
+    font-weight: 700;
+}
+
+.mybutton{
+    color:violet;
+    font-family: "Lobster",cursive;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background-color: yellow;
+    border-radius: 30%;
+    width:5rem;
+    height: 3rem;
+    
+}
+#message,#email,#subject,#name{
+    background-color: black;
+    color: rgb(214, 214, 12);
+}
+
+.robocont{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#robo{
+    position: absolute;
+    width:50%;
+    height:50%;
+    animation:jump 5s ease-in-out 0s infinite alternate;
+    transition: all 2s;
+}
+
+@keyframes jump{
+  0%{
+      }
+      25%{
+        transform: translateY(30px) ;
+      
+      }
+      50%{
+        transform: translateY(-30px) 
+       
+      }
+      75%{
+        transform: translateY(-30px) 
+       
+      }
+      100%{
+        transform: translateY(30px) 
+      }
+}
+.projects{
+margin-top: 10px;
+margin-bottom: 10px;
+background-color: violet !important;
+font-family: "Lobster",cursive;
+font-weight: 900;
+box-shadow: 2px 2px 5px black,-2px -2px 5px black;
+text-align: center;
+display: block;
+}
+
+.card-img{
+    width:100%;
+   
+}
+.card-img img{
+    width:100%;
+    height: 200px;
+}
+
