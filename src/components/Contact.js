@@ -4,7 +4,7 @@ export default function Contact() {
 
   
    document.addEventListener("contextmenu",(e)=>{
-   // e.preventDefault();
+   e.preventDefault();
       })
   return (
     <div className='container justify-content-centre align-items-centre mycontact' >
@@ -12,7 +12,7 @@ export default function Contact() {
 
 
    
-    <h2 class="h1-responsive font-weight-bold text-center my-4" style={{color:"yellow",textShadow:"2px 2px 10px violet",fontFamily:"Lobster,cursive"}}>Contact Me</h2>
+    <h1 class="h1-responsive font-weight-bold text-center my-4" style={{color:"yellow",textShadow:"2px 2px 10px violet",fontFamily:"Lobster,cursive"}}>Contact Me</h1>
 
    
 
@@ -73,7 +73,7 @@ export default function Contact() {
                     </div>
                 </div>
                 
-                <button className="mybutton" type="submit">Send</button>
+                <button className="mybutton" type="submit" style={{fontWeight:"900",fontSize:"1.3rem"}}>Send</button>
             </form>
 
            

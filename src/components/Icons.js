@@ -23,12 +23,12 @@ export default function Icons() {
     </div>
     <div className="profile-details-name container justify-content-centre" style={{textAlign:"center"}}>
         <h4 style={{textAlign:"centre",color:"yellow",fontFamily:"Lobster,cursive"}} className=" primary-text">
-        Hello..I Am Anubhav,a web developer and an aspiring Data Scientist.
+        Hello..I Am Anubhav,a web developer with interests in Devops and Data Science
         
        
         </h4>
         <Link className='btn my-3' style={{color:"yellow",backgroundColor:"violet",
-        fontFamily:" Lobster,cursive",fontWeight:"700"}} to="/contact"><h6>Contact Me</h6></Link>
+        fontFamily:" Lobster,cursive",fontWeight:"700",fontSize:"5rem"}} to="/contact"><h5 style={{fontWeight:"bolder",color:"white"}}>Contact Me</h5></Link>
         
     </div>
 

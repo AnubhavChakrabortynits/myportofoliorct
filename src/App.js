@@ -3,7 +3,7 @@ import './App.css';
 import Header from './components/Header';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Skills from './components/Skills';
-import { BrowserRouter as Router,Route,Switch} from 'react-router-dom';
+import { BrowserRouter as Router,Route,Switch,HashRouter} from 'react-router-dom';
 import About from './components/About';
 
 import Icons from './components/Icons';
@@ -20,7 +20,7 @@ function App() {
 
   return (
     
-    <Router>
+    <HashRouter>
   <div className='maindiv'>
            <Navbar/>
            <Switch>
@@ -53,7 +53,7 @@ function App() {
     
            </div>
           
-          </Router>
+          </HashRouter>
     
   );
 }
