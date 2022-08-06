@@ -37,7 +37,7 @@ transform:rotateZ(360deg) ;
 
 
 nav a.nav-link{
-    font-weight: 700;
+    font-weight: 900;
     cursor: pointer;
     letter-spacing: 0.0375rem;
 }
@@ -48,6 +48,7 @@ nav a.nav-link{
     margin-right:0.75rem ;
     margin-left:0.75rem ;
     transition: all 1s ease-in;
+    font-weight: 900;
    
 }
 
@@ -204,28 +205,29 @@ h1{
 }
 
 .card{
-    max-width: 350px !important;
+    width: 12rem !important;
     margin: auto;
-   box-shadow: 5px 5px 10px violet,-5px -5px 10px violet;
+   box-shadow: 1px 1px 1px yellow,-1px -1px 1px yellow ;
 }
 
 .about-heading{
   
     text-transform: uppercase;
  
-    color: yellow;
-    text-shadow:1px 1px 2px violet,-1px -1px 2px violet ;
+    color: white;
+    text-shadow:1px 1px 1px violet,-1px -1px 1px violet ;
 }
 
 .about-info{
-    color: rgb(231, 145, 241);
+    color: yellow;
     font-family: 'Lobster', cursive;
     text-align: justify;
+    text-shadow: 1px 1px 1px violet;
 }
 
 
 #myname,#myemail,#mymessage,#mysubject{
-    color:violet;
+    color:yellow;
     font-family: "Lobster",cursive;
     font-weight: 700;
 }
@@ -244,7 +246,7 @@ h1{
 }
 #message,#email,#subject,#name{
     background-color: black;
-    color: rgb(214, 214, 12);
+    color: violet;
 }
 
 .robocont{
@@ -284,19 +286,27 @@ h1{
 .projects{
 margin-top: 10px;
 margin-bottom: 10px;
-background-color: violet !important;
+background-color: rgb(208, 208, 55) !important;
 font-family: "Lobster",cursive;
 font-weight: 900;
-box-shadow: 2px 2px 5px black,-2px -2px 5px black;
+box-shadow: 2px 2px 4px rgb(177, 65, 177),-2px -2px 4px rgb(177, 65, 177);
 text-align: center;
 display: block;
+color:rgb(71, 4, 71) !important;
+font-weight: 700 !important;
+}
+
+.card{
+    height:200px;
 }
 
 .card-img{
     width:100%;
+  
    
 }
 .card-img img{
     width:100%;
     height: 200px;
 }
+

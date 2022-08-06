@@ -12,7 +12,7 @@ export default function Contact() {
 
 
    
-    <h1 class="h1-responsive font-weight-bold text-center my-4" style={{color:"yellow",textShadow:"2px 2px 10px violet",fontFamily:"Lobster,cursive"}}>Contact Me</h1>
+    <h1 class="h1-responsive font-weight-bold text-center my-4" style={{color:"white",textShadow:"2px 2px 2px violet",fontFamily:"Lobster,cursive",fontWeight:"900"}}>Contact Me</h1>
 
    
 

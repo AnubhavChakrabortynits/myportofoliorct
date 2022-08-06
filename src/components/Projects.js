@@ -3,7 +3,7 @@ import "../my.css"
 export default function Projects() {
   return (
     <div className='container'>
-     <h1 className="font-weight-bold st-font" style={{color:"yellow",textShadow:"1px 1px 2px violet",fontFamily:"Lobster,cursive"}}>MY PROJECTS:-</h1>
+     <h1 className="font-weight-bold st-font mt-4" style={{color:"white",textShadow:"1px 1px 1px violet,-1px -1px 1px violet",fontWeight:"900",fontFamily:"Lobster,cursive"}}>MY PROJECTS:-</h1>
 <div className="row">
 
 <div className="col-lg-4 col-md-6">
@@ -21,6 +21,14 @@ export default function Projects() {
 <div className="col-lg-4 col-md-6">
 <a href="https://anubhavchakrabortynits.github.io/sugarlandingpage/"  rel='noreferrer' className="projects list-group-item list-group-item-action " target="_blank" >Static landing page</a>
 </div>
+
+<div className="col-lg-4 col-md-6">
+  <a href="https://fileshare10.herokuapp.com/"  rel='noreferrer' className="projects list-group-item list-group-item-action" aria-current="true" target="_blank" >
+     File Sharing WebApp
+    </a>
+
+  </div>
+
 
   <div className="col-lg-4 col-md-6">
   <a href="https://anubhavchakrabortynits.github.io/tictactoe.github.io/"  rel='noreferrer' className="projects list-group-item list-group-item-action" aria-current="true" target="_blank" >
