@@ -43,12 +43,14 @@ nav a.nav-link{
 }
 
 .navbar-nav > li > a{
-    color:rgb(221, 0, 255) !important;
+    color:yellow !important;
     font-size: large;
     margin-right:0.75rem ;
     margin-left:0.75rem ;
     transition: all 1s ease-in;
     font-weight: 900;
+ 
+
    
 }
 
@@ -60,7 +62,7 @@ nav a.nav-link{
     margin-right:0.75rem ;
     margin-left:0.75rem ;
     font-weight: bolder;
-   background-color:blueviolet !important;
+   background-color:yellow !important;
  
     box-shadow:inset .75rem .75rem 2rem whitesmoke !important;
    
@@ -73,8 +75,8 @@ nav a.nav-link{
     margin-right:0.75rem ;
     margin-left:0.75rem ;
     font-weight: bolder;
-   background-color:blueviolet !important;
- 
+   background-color:yellow !important;
+
     box-shadow:inset .75rem .75rem 2rem whitesmoke !important;
    
     
@@ -286,14 +288,15 @@ h1{
 .projects{
 margin-top: 10px;
 margin-bottom: 10px;
-background-color: rgb(208, 208, 55) !important;
+background-color:yellow!important;
 font-family: "Lobster",cursive;
 font-weight: 900;
-box-shadow: 2px 2px 4px rgb(177, 65, 177),-2px -2px 4px rgb(177, 65, 177);
+box-shadow: 2px 2px 4px violet,-2px -2px 4px violet;
 text-align: center;
 display: block;
-color:rgb(71, 4, 71) !important;
+color:rgb(87, 9, 87) !important;
 font-weight: 700 !important;
+text-shadow: 1px 1px 1px white,-1px -1px 1px white;
 }
 
 .card{

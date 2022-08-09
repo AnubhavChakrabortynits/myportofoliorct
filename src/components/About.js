@@ -7,8 +7,8 @@ export default function About() {
     <div className='row justify-content-centre align-items-centre'>
         <div className='col'>
           <h1 className="about-heading" style={{fontFamily:"Lobster,cursive"}}> ABOUT ME:-</h1>
-         <h5 className='about-info' style={{fontWeight:"900"}}> I Am Anubhav Chakraborty,a web developer with familiarity in technologies such as <b style={{color:"yellow"}}>React JS</b> and <b style={{color:"yellow"}}>Django</b> and an aspiring Data Scientist With Interests 
-         In Machine Learning And Cloud Technologies As Well.
+         <h5 className='about-info' style={{fontWeight:"900"}}> I Am Anubhav Chakraborty,a web developer with familiarity in technologies such as <b style={{color:"white"}}>React JS</b> and <b style={{color:"white"}}>Django</b> and an aspiring Data Scientist With Interests 
+         In <strong style={{color:"white"}}>Machine Learning</strong> And <strong style={{color:"white"}}>Cloud Technologies</strong> As Well.
           I Am Currently Doing My Bachelors In Computer Science And Engineering From 
           National Institute Of Technology Silchar.Before That I Have Done My Schooling And Plus 2
           From Holy Cross School And NHS Silchar Respectively.
